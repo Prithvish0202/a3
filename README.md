@@ -8,10 +8,10 @@
 * Capture on "any" interface and in order to see FAPI messages udp.port==38555 || udp.port==38556 can be used as display filter
 2. Open another terminal and go to Altran Stack gNB_CU/bin/ and give root permission and run cu binary
 * sudo su
-* execute_cu.sh
+* ./execute_cu.sh
 3. Open another terminal and go to Altran Stack gNB_CU/bin/ and give root permission and then run pdcp binary
 * sudo su
-* execute_pdcp.sh
+* ./execute_pdcp.sh
 4. Open another terminal and go macSWintf/eclipse/wnNrMacPhyInterface/src/ and execute following commands
 * gcc -o run_interface wnNrMacPhyInterface.c libSharedMem.a -lpthread
 * sudo ./run_interface
