@@ -1,7 +1,7 @@
-#wnNrMacPhyInterface
-##Execution Steps
- Execution should be done in order : CU->PDCP->macSWintf->PhyEmulator->DU
-Altran Stack executables are present in gNB_CU/bin and gNB_DU/bin 
+# wnNrMacPhyInterface
+## Execution Steps
+* Execution should be done in order : CU->PDCP->macSWintf->PhyEmulator->DU
+* Altran Stack executables are present in gNB_CU/bin and gNB_DU/bin 
 1. Run wireshark in a terminal Using following commands
 * cd build-3.0.2/
 * sudo run/wireshark
