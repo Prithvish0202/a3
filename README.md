@@ -18,6 +18,6 @@ Altran Stack executables are present in gNB_CU/bin and gNB_DU/bin
 5. Open another terminal and go to macFapi/wnNrPhyEmulator/debug/ and execute following commands
 * make clean; make
 * ./PhyFapiAPIExe     (no need for root privileges)
-6.Open another terminal and go to ALtran Stack gNB_DU/bin/ and give root permission and run du binary
+6. Open another terminal and go to ALtran Stack gNB_DU/bin/ and give root permission and run du binary
 * sudo su
 * ./execute.sh 
